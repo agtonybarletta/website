@@ -9,18 +9,18 @@
 }
 
 body {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-family: 'Noto Sans JP', sans-serif;
   padding: 0px;
   margin: 0;
   animation-name: background-fade;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 @keyframes background-fade {
-  from {background-color: white; }
-  to {background-color: black; }
+  from {background-color: black; }
+  to {background-color: white; }
 }
 
 .content {
@@ -30,13 +30,14 @@ body {
   margin: auto;
   width: 50%;
 }
+
 .header h1{
   font-size: 75px;
 }
 
 .topnav {
   margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .article{   
@@ -51,18 +52,21 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #ccc;
+  color: #333;
   text-align: center;
-  padding: 16px 16px;
+  padding: 5px 5px;
   text-decoration: none;
+}
+
+.topnav a:visited{
+  color: #888
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  color: #fff;
+  color: #000;
 }
 img {
-  background-color: #aaa;
   height: 300px;
   display: block;
   margin-left: auto;
@@ -77,112 +81,31 @@ img {
   height:50px;
 }
 
+@media only screen and (max-width: 800px) {
+  body{
+    overflow-x: hidden;
+  }
+  .header h1{
+    font-size: 50px;
+  }
+
+  .topnav {
+    padding-left: 50px;
+    padding-bottom: 100px;
+  }
+  .article {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin: 50px 0;
+  }
+  .content {
+    width: 100%;
+    margin: 50px 0;
+  }
+}
+
 </style>
-<!--<style>
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-</style> -->
 </head>
 <body>
 <div class="article">
@@ -192,10 +115,8 @@ body {
 </div>
 
 <div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <!--<a href="#" style="float:right">Link</a>-->
+  <a href="https://blog.agtb.it">Blog</a>
+  <a href="https://agtb.it/contacts">Contacts</a>
 </div>
 
 <div class="body">
