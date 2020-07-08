@@ -3,6 +3,10 @@
   src: url("fonts/NotoSansJP-Regular.otf");
 }
 
+.neofetch{
+  font-size: 8pt;
+  line-height: 0.7;
+}
 
 .red {
 	color: #ff0000;
@@ -31,7 +35,7 @@ body {
   min-height: 100vh;
   position: relative;
   margin: auto;
-  width: 50%;
+  width: 100%;
 }
 
 .header h1 {
@@ -82,7 +86,7 @@ img {
   height: 50px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   .content {
     overflow-x: hidden;
   }
