@@ -1,111 +1,101 @@
-@font-face {
-  font-family: "Noto Sans JP";
-  src: url("fonts/NotoSansJP-Regular.otf");
-}
-
-.neofetch{
-  font-size: 8pt;
-  line-height: 0.7;
-}
-
-.red {
-	color: #ff0000;
-}
 body {
-  background-color: #fff;
   color: #000;
   font-family: "Noto Sans JP", sans-serif;
   padding: 0px;
   margin: 0;
-  animation-name: background-fade;
-  animation-duration: 2s;
+}
+a{
+  text-decoration: none;
+}
+a:visited{ 
+  color: #888;
+ }
+
+.red {
+  color: #ff0000;
 }
 
-@keyframes background-fade {
-  from {
-    background-color: black;
-  }
-  to {
-    background-color: white;
-  }
+header {
+  margin: 50px;
+  margin-bottom: 150px;
+  margin-top: 100px;
 }
 
-.content {
-  height: 100%;
-  min-height: 100vh;
-  position: relative;
-  margin: auto;
-  width: 100%;
+header h1 {
+  font-size: 4em;
+  text-align: center;
+}
+article {
+  margin: 50px;
 }
 
-.header h1 {
-  font-size: 75px;
+article h2 {
+  margin-top: 40px;
 }
-
-.topnav {
-  margin: auto;
-  padding-bottom: 100px;
-}
-
-.article {
-  margin: auto;
-  padding-top: 50px;
-  width: 50%;
+article pre {
+  font-size: 6pt;
+  line-height: 0.7;
 }
 
 /* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
+nav {
+  margin-bottom: 100px;
+  text-align: center;
+}
+nav a {
   color: #333;
   text-align: center;
   padding: 5px 5px;
   text-decoration: none;
+  display: block;
+  border: 1px solid #333;
+  margin: 5px;
 }
 
-.topnav a:visited {
+nav a:visited {
   color: #888;
 }
 
 /* Change color on hover */
-.topnav a:hover {
+nav a:hover {
   color: #000;
 }
+
 img {
   height: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* Footer */
-.footer {
-  margin-left: auto;
-  margin-right: auto;
+
+footer {
+  margin: 50px;
   padding-top: 50px;
-  bottom: 0px;
-  height: 50px;
+  padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 500px) {
-  .content {
-    overflow-x: hidden;
+@media only screen and (min-width: 768px) {
+  body {
+    //background-color: #00ff00;
   }
-  .header h1 {
-    font-size: 50px;
+  header {
+    margin: auto;
+    width: 50%;
   }
-
-  .topnav {
-    padding-left: 50px;
-    padding-bottom: 100px;
+  nav a {
+    display: inline;
+	border: none;
   }
-  .article {
-    width: 100%;
-    max-width: 100%;
-    text-align: center;
-    margin: 50px 0;
+  article {
+    margin: auto;
+    width: 66%;
   }
-  .content {
-    width: 100%;
-    margin: 50px 0;
+  article pre {
+    font-size: 8pt;
+    line-height: 0.7;
+  }
+  footer {
+    margin: auto;
+    width: 66%;
   }
 }
