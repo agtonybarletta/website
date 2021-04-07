@@ -55,9 +55,8 @@
 			formData.append('reason', data.reason);
 			formData.append('request', data.request);
 			console.log(JSON.stringify(data));
-			fetch('http://localhost:3000/contact',
+			fetch('http://localhost:3000/',
 				{method:'POST',
-					mode:"no-cors",
 					headers: {
 						'Content-Type': 'application/json',
 					},
