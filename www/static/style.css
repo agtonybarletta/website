@@ -1,0 +1,12 @@
+#title{
+	padding: 10px 100px 10px 0px;
+	font-size: 2em;
+}
+
+nav{
+	background-color: #FFFFFF;
+	top: 0;
+	left: 0;
+	margin-bottom: 100px;
+	z-index: 1000;
+}
