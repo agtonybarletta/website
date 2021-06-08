@@ -18,6 +18,7 @@ program_name="md2html"
 dir="./"
 head=./head.html
 tail=./tail.html
+clean=0
 
 show_help(){
 	echo 
@@ -29,7 +30,7 @@ This is free software, and you are welcome to redistribute it
 under certain conditions;
 "
 	echo usage: 
-	echo "  ./$program_name.sh [-h,--help] [-v,--verbose] [ --head head.html ] [ --tail tail.html ] dir"
+	echo "  ./$program_name.sh [-h,--help] [-v,--verbose] [ --head head.html ] [ --tail tail.html ] [ --clean ] dir"
 	echo 
 	echo "  dir                              directory to transfor ( ./ default ) (string)"
 	echo options:
@@ -37,6 +38,8 @@ under certain conditions;
 	echo "  -h, --help                       help"
 	echo "  --head                           head html file ( default ./head.html  ) (string)"
 	echo "  --tail                           htail html file ( default ./tail.html  ) (string)"
+	echo "  --clean                          clean the target directory from previously"
+	echo "                                       generated html files (skips .part.html)"
 }
 
 output_verbose(){
@@ -44,7 +47,7 @@ output_verbose(){
 	
 }
 
-options=$(getopt -l "help,verbose,vv,dir:,head:,tail:" -o "hvd:" -a -- "$@")
+options=$(getopt -l "help,verbose,vv,dir:,head:,tail:,clean" -o "hvd:" -a -- "$@")
 
 eval set -- "$options"
 
@@ -70,6 +73,9 @@ case $1 in
 	shift
     export tail=$1
     ;;
+--clean)
+	export clean=1
+	;;
 --)
     shift
 	export dir=$1
@@ -79,13 +85,12 @@ shift
 done
 
 
-output_verbose 
-
 ################## SCRIPT ####################à
 
 output_verbose "dir: $dir" 
 output_verbose "head: $head" 
 output_verbose "tail: $tail" 
+output_verbose "clean: $clean" 
 
 single_file(){
 	full_path=$1
@@ -110,7 +115,7 @@ single_file(){
 	pandoc -o $body_html $full_path 
 	cat $titled_head_html $body_html $tail > $full_path_html
 	substitute_embed $full_path_html
-	# rm $body_html
+	rm $body_html
 	rm $titled_head_html
 }
 
@@ -137,7 +142,15 @@ substitute_embed(){
 	sed -i 's/^.*<embed src=\".*".*$//g' $1
 }
 
-
+if [ $clean == 1 ]; then
+	for f in $dir $(find $dir -type f); do
+		if [[ $f =~ ^.*\.html$ ]] && [[ ! $f =~ ^.*\.part\.html$ ]]; then
+			rm $f
+			output_verbose "removing $f"
+		fi;
+	done;
+	exit 0
+fi
 
 
 for curr_dir in $dir $(find $dir -type d); do
