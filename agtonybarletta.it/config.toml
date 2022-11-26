@@ -1,4 +1,4 @@
-baseURL = 'https://agtonybarletta.github.io/website/'
+baseURL = 'https://agtonybarletta.github.io/website'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme= 'hugo-coder'
