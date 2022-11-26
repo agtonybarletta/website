@@ -4,3 +4,6 @@
 [submodule "agtonybarletta.it/themes/hugo-coder"]
 	path = agtonybarletta.it/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "agtonybarletta.it/themes/themes/hugo-coder"]
+	path = agtonybarletta.it/themes/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
