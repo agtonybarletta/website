@@ -1,6 +1,6 @@
 # Tony's Website :)
 
-I am A.G. Tony Barletta, an italian developer who likes to learn and build new things.
+I am A.G.. Tony Barletta, an italian developer who likes to learn and build new things.
 I currently working in the banking sector as Full stack Java web developer.
 I build this website to have a place to collect all the links to my accounts and projects.
 
