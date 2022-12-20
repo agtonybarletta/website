@@ -1,0 +1,38 @@
+.project-list{
+	//padding-left: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+}
+.project-title{
+	flex: 1;
+	//margin-left: 4em;
+	text-align: right;
+
+}
+.project-description{
+	flex: 2;
+	margin-top: 0;
+	margin-left: 2em ;
+
+	p{
+		margin-top: 0;
+	}
+
+}
+.break{
+	width: 100%;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.model-viewer{
+	border: 2px solid white;
+	height: 50vw; 
+	width: 80%;
+	background-color: #001484;
+	margin-left: auto;
+	margin-right: auto;
+}

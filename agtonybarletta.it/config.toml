@@ -38,7 +38,7 @@ maxSeeAlsoItems = 5
 # Custom CSS
 customCSS = []
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
-customSCSS = []
+customSCSS = ["scss/extended.scss"]
 # Custom JS
 customJS = []
 
@@ -144,6 +144,11 @@ author = "authors"
 
 [languages.en]
 languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "Hobbies"
+weight = 6
+url = "hobbies/"
 
 [[languages.en.menu.main]]
 name = "About"
