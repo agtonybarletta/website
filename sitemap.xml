@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://agtonybarletta.github.io/website/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://agtonybarletta.github.io/website/authors/</loc>
-  </url><url>
-    <loc>https://agtonybarletta.github.io/website/categories/</loc>
-  </url><url>
-    <loc>https://agtonybarletta.github.io/website/</loc>
-  </url><url>
-    <loc>https://agtonybarletta.github.io/website/series/</loc>
-  </url><url>
-    <loc>https://agtonybarletta.github.io/website/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>localhost:9080/sitemap.xml</loc>
+    
+      <lastmod>2022-07-25T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>localhost:9080/sitemap.xml</loc>
+    
+      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

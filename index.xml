@@ -1,19 +1,149 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://agtonybarletta.github.io/website/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>johndoe</title>
+    <link>localhost:9080/</link>
+    <description>Recent content on johndoe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://agtonybarletta.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="localhost:9080/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://agtonybarletta.github.io/website/</link>
+      <title>Mermaid JS support</title>
+      <link>localhost:9080/posts/mermaid-support/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/mermaid-support/</guid>
+      <description>If you want to use Mermaid-JS on your website. Provide mermaid as Shortcode in your markdown file.
+flowchart LR A --&gt; B B --&gt; C C --&gt; D D --&gt; B sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;Bob: Hi Bob Bob-&gt;&gt;Alice: Hi Alice Find more example on Mermaid-JS website.</description>
+    </item>
+    
+    <item>
+      <title>HTML and CSS only tabs</title>
+      <link>localhost:9080/posts/html-and-css-only-tabs/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/html-and-css-only-tabs/</guid>
+      <description>Basic shortcodes The following content:
+{{&amp;lt; tabgroup &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabgroup &amp;gt;}} Will generate:
+Hello Hello World! Goodbye Goodbye Everybody! Right alighment You can also align the tabs to the right:
+{{&amp;lt; tabgroup align=&amp;#34;right&amp;#34; &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabgroup &amp;gt;}} Giving you this look:</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>localhost:9080/posts/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>localhost:9080/posts/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>More Rich Content</title>
+      <link>localhost:9080/posts/more-rich-content/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/more-rich-content/</guid>
+      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>localhost:9080/posts/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>localhost:9080/posts/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>localhost:9080/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>External Page: Hugo Coder Wiki</title>
+      <link>localhost:9080/posts/hugo-coder-wiki/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/posts/hugo-coder-wiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cola bottle cap</title>
+      <link>localhost:9080/3d-print/cola-bottle-cap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://agtonybarletta.github.io/website/</guid>
-      <description>Tony&amp;rsquo;s Website :) Link to heading I am A.G.. Tony Barletta, an italian developer who likes to learn and build new things. I currently working in the banking sector as Full stack Java web developer. I build this website to have a place to collect all the links to my accounts and projects.
-My dotted dog Link to heading My skills Link to heading I have programmed in programming languages during my university experience.</description>
+      <guid>localhost:9080/3d-print/cola-bottle-cap/</guid>
+      <description> Cola bottle cap This bottle cap for Coca-Cola glass bottles makes them reusable and reduces waste. It also comes with a paracord to decrease the chances of losing the cap.
+Material Used: TPU.
+STL FCStd GLTF </description>
+    </item>
+    
+    <item>
+      <title>my p1 photo title</title>
+      <link>localhost:9080/hobbies/photos/p1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/hobbies/photos/p1/</guid>
+      <description> my P1 photo </description>
+    </item>
+    
+    <item>
+      <title>Personal Rice - Desktop Environment</title>
+      <link>localhost:9080/projects/homemade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/projects/homemade/</guid>
+      <description>Personal Rice - Desktop Environment Collection of scripts to install all programs and configuratios for my xfce4+awesomeWm setup
+Requirements ~Debian~ Arch linux must be already installed before running this scripts. A clean installation with archinstall should do the work.
+Steps This is the list of steps needed before running this script (Arch linux)
+setup keyboard layout laodkeys us
+check internet connection ip link
+update time timedatectl status
+partition disk using fdisk.</description>
+    </item>
+    
+    <item>
+      <title>Personal Website</title>
+      <link>localhost:9080/projects/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/projects/readme/</guid>
+      <description> Personal Website to read to understand hugo https://tangenttechnologies.ca/blog/hugo-themes/ https://github.com/luizdepra/hugo-coder/tree/main/docs </description>
+    </item>
+    
+    <item>
+      <title>title</title>
+      <link>localhost:9080/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/about/</guid>
+      <description>about h1 title about me
+h2 h2</description>
     </item>
     
   </channel>

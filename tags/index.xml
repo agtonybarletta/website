@@ -1,10 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://agtonybarletta.github.io/website/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on johndoe</title>
+    <link>localhost:9080/tags/</link>
+    <description>Recent content in Tags on johndoe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://agtonybarletta.github.io/website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="localhost:9080/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>css</title>
+      <link>localhost:9080/tags/css/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>localhost:9080/tags/html/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>localhost:9080/tags/markdown/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>localhost:9080/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>localhost:9080/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>localhost:9080/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emoji</title>
+      <link>localhost:9080/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/emoji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>localhost:9080/tags/development/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>localhost:9080/tags/hugo/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>localhost:9080/tags/themes/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:9080/tags/themes/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
