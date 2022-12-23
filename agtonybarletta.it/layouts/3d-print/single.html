@@ -22,10 +22,10 @@
               </time>
             </span>
 			{{ end }}
-            <span class="reading-time">
+            <!--<span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
               {{ i18n "reading_time" .ReadingTime }}
-            </span>
+			</span>-->
           </div>
           {{ with .Page.Params.Authors }}{{ partial "taxonomy/authors.html" . }}{{ end }}
           {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
@@ -38,16 +38,6 @@
           <img src="{{ .Params.featuredImage | relURL }}" alt="Featured image"/>
         {{ end }}
         {{ .Content }}
-
-		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-		<model-viewer 
-		 camera-controls
-  		 auto-rotate
-		 rotation-per-second="40deg"
-		 ar
-		 class="model-viewer"
-		 src='{{ print "/3d-models/" .File.TranslationBaseName ".gltf" }}' >
-		</model-viewer>
       <footer>
         {{ partial "posts/series.html" . }}
         {{ partial "posts/disqus.html" . }}
@@ -55,7 +45,6 @@
         {{ partial "posts/utterances.html" . }}
       </footer>
     </article>
-
-    {{ partial "posts/math.html" . }}
+    {{ partial "posts/math.html" }}
   </section>
 {{ end }}

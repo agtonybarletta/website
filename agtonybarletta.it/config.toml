@@ -1,4 +1,4 @@
-baseURL = "localhost:9080"
+baseURL = "https://agtonybarletta.github.io/website"
 title = "johndoe"
 theme = "hugo-coder"
 languageCode = "en"

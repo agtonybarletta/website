@@ -1,15 +1,6 @@
-
-    {{ if eq .Level 1}}
-<h{{ .Level }} id="{{ .Anchor | safeURL }}" class="title">
-<a href="#{{ .Anchor | safeURL }}" class="title-link">
-{{ .Text | safeHTML }}
-</a></h{{ .Level }}>
-
-    {{ else }}
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
 <a href="#{{ .Anchor | safeURL }}" class="title-link">
     <span >
 {{ .Text | safeHTML }}
     </span>
 </a></h{{ .Level }}>
-    {{ end }}
