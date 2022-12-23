@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost:9080/</loc>
+    <loc>localhost:1313/website/posts/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
@@ -16,27 +16,13 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/posts/</loc>
-    <lastmod>2022-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="#ZgotmplZ"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="#ZgotmplZ"
-                />
-  </url><url>
-    <loc>localhost:9080/series/hugo/</loc>
+    <loc>localhost:1313/website/series/hugo/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost:9080/posts/mermaid-support/</loc>
+    <loc>localhost:1313/website/posts/mermaid-support/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost:9080/series/</loc>
+    <loc>localhost:1313/website/series/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -49,11 +35,11 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/series/theme/</loc>
+    <loc>localhost:1313/website/series/theme/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost:9080/categories/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
+    <loc>localhost:1313/website/</loc>
+    <lastmod>2022-07-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -65,71 +51,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/tags/css/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="#ZgotmplZ"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="#ZgotmplZ"
-                />
-  </url><url>
-    <loc>localhost:9080/tags/html/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="#ZgotmplZ"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="#ZgotmplZ"
-                />
-  </url><url>
-    <loc>localhost:9080/posts/html-and-css-only-tabs/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>localhost:9080/tags/markdown/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="#ZgotmplZ"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="#ZgotmplZ"
-                />
-  </url><url>
-    <loc>localhost:9080/categories/syntax/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>localhost:9080/tags/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="#ZgotmplZ"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="#ZgotmplZ"
-                />
-  </url><url>
-    <loc>localhost:9080/categories/themes/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>localhost:9080/series/themes-guide/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>localhost:9080/posts/markdown-syntax/</loc>
+    <loc>localhost:1313/website/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -142,7 +64,81 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/tags/privacy/</loc>
+    <loc>localhost:1313/website/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="#ZgotmplZ"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="#ZgotmplZ"
+                />
+  </url><url>
+    <loc>localhost:1313/website/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="#ZgotmplZ"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="#ZgotmplZ"
+                />
+  </url><url>
+    <loc>localhost:1313/website/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="#ZgotmplZ"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="#ZgotmplZ"
+                />
+  </url><url>
+    <loc>localhost:1313/website/posts/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="#ZgotmplZ"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="#ZgotmplZ"
+                />
+  </url><url>
+    <loc>localhost:1313/website/categories/syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>localhost:1313/website/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="#ZgotmplZ"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="#ZgotmplZ"
+                />
+  </url><url>
+    <loc>localhost:1313/website/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>localhost:1313/website/series/themes-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>localhost:1313/website/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -155,7 +151,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/posts/rich-content/</loc>
+    <loc>localhost:1313/website/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -168,7 +164,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/tags/shortcodes/</loc>
+    <loc>localhost:1313/website/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -181,7 +177,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/posts/more-rich-content/</loc>
+    <loc>localhost:1313/website/posts/more-rich-content/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -194,7 +190,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/posts/placeholder-text/</loc>
+    <loc>localhost:1313/website/posts/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -207,7 +203,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/tags/text/</loc>
+    <loc>localhost:1313/website/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -220,7 +216,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/posts/math-typesetting/</loc>
+    <loc>localhost:1313/website/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -233,7 +229,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/tags/emoji/</loc>
+    <loc>localhost:1313/website/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -246,7 +242,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/posts/emoji-support/</loc>
+    <loc>localhost:1313/website/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -259,7 +255,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/tags/development/</loc>
+    <loc>localhost:1313/website/tags/development/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -272,7 +268,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/categories/development/</loc>
+    <loc>localhost:1313/website/categories/development/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -285,7 +281,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/posts/hugo-coder-wiki/</loc>
+    <loc>localhost:1313/website/posts/hugo-coder-wiki/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -298,7 +294,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/tags/hugo/</loc>
+    <loc>localhost:1313/website/tags/hugo/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -311,7 +307,7 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/tags/themes/</loc>
+    <loc>localhost:1313/website/tags/themes/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -324,15 +320,15 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/3d-print/</loc>
+    <loc>localhost:1313/website/3d-print/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>localhost:9080/hobbies/photos/</loc>
+    <loc>localhost:1313/website/hobbies/photos/</loc>
   </url><url>
-    <loc>localhost:9080/projects/</loc>
+    <loc>localhost:1313/website/projects/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>localhost:9080/authors/</loc>
+    <loc>localhost:1313/website/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -344,16 +340,18 @@
                 href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>localhost:9080/3d-print/cola-bottle-cap/</loc>
+    <loc>localhost:1313/website/3d-print/cola-bottle-cap/</loc>
   </url><url>
-    <loc>localhost:9080/hobbies/</loc>
+    <loc>localhost:1313/website/hobbies/</loc>
   </url><url>
-    <loc>localhost:9080/hobbies/photos/p1/</loc>
+    <loc>localhost:1313/website/3d-print/iphone-ibm-case/</loc>
   </url><url>
-    <loc>localhost:9080/projects/homemade/</loc>
+    <loc>localhost:1313/website/hobbies/photos/p1/</loc>
   </url><url>
-    <loc>localhost:9080/projects/readme/</loc>
+    <loc>localhost:1313/website/projects/homemade/</loc>
   </url><url>
-    <loc>localhost:9080/about/</loc>
+    <loc>localhost:1313/website/projects/readme/</loc>
+  </url><url>
+    <loc>localhost:1313/website/about/</loc>
   </url>
 </urlset>

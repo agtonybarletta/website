@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on João Ninguém</title>
-    <link>localhost:9080/pt-br/categories/</link>
+    <link>localhost:1313/website/pt-br/categories/</link>
     <description>Recent content in Categories on João Ninguém</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="localhost:9080/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="localhost:1313/website/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>sintaxe</title>
-      <link>localhost:9080/pt-br/categories/sintaxe/</link>
+      <link>localhost:1313/website/pt-br/categories/sintaxe/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>localhost:9080/pt-br/categories/sintaxe/</guid>
+      <guid>localhost:1313/website/pt-br/categories/sintaxe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>temas</title>
-      <link>localhost:9080/pt-br/categories/temas/</link>
+      <link>localhost:1313/website/pt-br/categories/temas/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>localhost:9080/pt-br/categories/temas/</guid>
+      <guid>localhost:1313/website/pt-br/categories/temas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>localhost:9080/pt-br/categories/development/</link>
+      <link>localhost:1313/website/pt-br/categories/development/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>localhost:9080/pt-br/categories/development/</guid>
+      <guid>localhost:1313/website/pt-br/categories/development/</guid>
       <description></description>
     </item>
     

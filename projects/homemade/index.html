@@ -22,7 +22,7 @@
 <meta property="og:title" content="Personal Rice - Desktop Environment" />
 <meta property="og:description" content="Collection of scripts to install all programs and configuratios for my  xfce4&#43;awesomeWm setup" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="localhost:9080/projects/homemade/" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="localhost:1313/website/projects/homemade/" /><meta property="article:section" content="projects" />
 
 
 
@@ -59,7 +59,7 @@
   
   
     
-    <link rel="stylesheet" href="/scss/extended.min.22a7c0f2031da7fd797e1c3f118186eb5f8024733a1725ee7215f708a5cbcdfe.css" integrity="sha256-IqfA8gMdp/15fhw/EYGG61&#43;AJHM6FyXuchX3CKXLzf4=" crossorigin="anonymous" media="screen" />
+    <link rel="stylesheet" href="/scss/extended.min.5e0194769a7b2ff01673dbf31e58b365b4ee4345353605b8c09662884249984e.css" integrity="sha256-XgGUdpp7L/AWc9vzHlizZbTuQ0U1NgW4wJZiiEJJmE4=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -79,6 +79,7 @@
 <meta name="generator" content="Hugo 0.108.0">
 
 
+<base href="localhost:1313/website">
 
 
 
@@ -165,7 +166,7 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="localhost:9080/projects/homemade/">
+            <a class="title-link" href="localhost:1313/website/projects/homemade/">
               Personal Rice - Desktop Environment
             </a>
           </h1>
@@ -186,33 +187,28 @@
 
       <div class="post-content">
         
-        
-    
-<h1 id="personal-rice---desktop-environment" class="title">
+        <h1 id="personal-rice---desktop-environment">
 <a href="#personal-rice---desktop-environment" class="title-link">
+    <span >
 Personal Rice - Desktop Environment
+    </span>
 </a></h1>
-
-    <p>Collection of scripts to install all programs and configuratios for my  xfce4+awesomeWm setup</p>
-
-    
+<p>Collection of scripts to install all programs and configuratios for my  xfce4+awesomeWm setup</p>
 <h2 id="requirements">
 <a href="#requirements" class="title-link">
     <span >
 Requirements
     </span>
 </a></h2>
-    <p>~Debian~ Arch linux must be already installed before running this scripts.
+<p>~Debian~ Arch linux must be already installed before running this scripts.
 A clean installation with <code>archinstall</code> should do the work.</p>
-
-    
 <h2 id="steps">
 <a href="#steps" class="title-link">
     <span >
 Steps
     </span>
 </a></h2>
-    <p>This is the list of steps needed before running this script (Arch linux)</p>
+<p>This is the list of steps needed before running this script (Arch linux)</p>
 <ol>
 <li>
 <p>setup keyboard layout
@@ -311,42 +307,36 @@ in /etc/mkinitcpio.conf at HOOKS add <code>resume</code> before <code>filesystem
 sudo mkinitcpio -p linux</p>
 </li>
 </ol>
-
-    
 <h2 id="desktop-environment">
 <a href="#desktop-environment" class="title-link">
     <span >
 Desktop environment
     </span>
 </a></h2>
-    <ul>
+<ul>
 <li>Distribution: Arch linux</li>
 <li>Desktop Environment: Xfce4</li>
 <li>Windows Manager: AwesomeWM</li>
 <li>Terminal: Konsole</li>
 <li>Theme: Adwaita-dark</li>
 </ul>
-
-    
 <h2 id="run">
 <a href="#run" class="title-link">
     <span >
 Run
     </span>
 </a></h2>
-    <div class="highlight"><pre tabindex="0" style="color:#ccc;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone http://github.com/agtonybarletta/homeMaDE.git
+<div class="highlight"><pre tabindex="0" style="color:#ccc;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone http://github.com/agtonybarletta/homeMaDE.git
 </span></span><span style="display:flex;"><span><span style="color:#cd00cd">cd</span> homeMaDE
 </span></span><span style="display:flex;"><span>./install.sh
 </span></span><span style="display:flex;"><span><span style="color:#000080"># optionally setup ~/.ssh in remote git repo, fill projects_list.txt and run ./install_projects.sh</span>
-</span></span></code></pre></div>
-    
-<h2 id="todo">
+</span></span></code></pre></div><h2 id="todo">
 <a href="#todo" class="title-link">
     <span >
 TODO
     </span>
 </a></h2>
-    <ul>
+<ul>
 <li><input checked="" disabled="" type="checkbox"> add fix hibernate steps</li>
 <li><input checked="" disabled="" type="checkbox"> add killing xfconfd and rm-rf ~/.cache before coping xfce4 config files</li>
 <li><input checked="" disabled="" type="checkbox"> fix xfce4-panel trasparency ??</li>
