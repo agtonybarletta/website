@@ -2,356 +2,356 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost:1313/website/posts/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/posts/"
                 />
   </url><url>
-    <loc>localhost:1313/website/series/hugo/</loc>
+    <loc>https://agtonybarletta.github.io/website/series/hugo/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost:1313/website/posts/mermaid-support/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/mermaid-support/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost:1313/website/series/</loc>
-    <lastmod>2022-07-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="#ZgotmplZ"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="#ZgotmplZ"
-                />
-  </url><url>
-    <loc>localhost:1313/website/series/theme/</loc>
-    <lastmod>2022-07-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>localhost:1313/website/</loc>
+    <loc>https://agtonybarletta.github.io/website/series/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/series/"
                 />
   </url><url>
-    <loc>localhost:1313/website/categories/</loc>
+    <loc>https://agtonybarletta.github.io/website/series/theme/</loc>
+    <lastmod>2022-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://agtonybarletta.github.io/website/</loc>
+    <lastmod>2022-07-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://agtonybarletta.github.io/website/pt-br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agtonybarletta.github.io/website/"
+                />
+  </url><url>
+    <loc>https://agtonybarletta.github.io/website/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/categories/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/css/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/css/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/html/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/html/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/markdown/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/markdown/"
                 />
   </url><url>
-    <loc>localhost:1313/website/posts/markdown-syntax/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/posts/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/posts/markdown-syntax/"
                 />
   </url><url>
-    <loc>localhost:1313/website/categories/syntax/</loc>
+    <loc>https://agtonybarletta.github.io/website/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost:1313/website/tags/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/"
                 />
   </url><url>
-    <loc>localhost:1313/website/categories/themes/</loc>
+    <loc>https://agtonybarletta.github.io/website/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost:1313/website/series/themes-guide/</loc>
+    <loc>https://agtonybarletta.github.io/website/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost:1313/website/tags/privacy/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/privacy/"
                 />
   </url><url>
-    <loc>localhost:1313/website/posts/rich-content/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/posts/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/posts/rich-content/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/shortcodes/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/shortcodes/"
                 />
   </url><url>
-    <loc>localhost:1313/website/posts/more-rich-content/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/more-rich-content/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/posts/more-rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/posts/more-rich-content/"
                 />
   </url><url>
-    <loc>localhost:1313/website/posts/placeholder-text/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/posts/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/posts/placeholder-text/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/text/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/text/"
                 />
   </url><url>
-    <loc>localhost:1313/website/posts/math-typesetting/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/posts/math-typesetting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/posts/math-typesetting/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/emoji/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/emoji/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/emoji/"
                 />
   </url><url>
-    <loc>localhost:1313/website/posts/emoji-support/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/posts/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/posts/emoji-support/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/development/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/development/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/development/"
                 />
   </url><url>
-    <loc>localhost:1313/website/categories/development/</loc>
+    <loc>https://agtonybarletta.github.io/website/categories/development/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/categories/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/categories/development/"
                 />
   </url><url>
-    <loc>localhost:1313/website/posts/hugo-coder-wiki/</loc>
+    <loc>https://agtonybarletta.github.io/website/posts/hugo-coder-wiki/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/posts/hugo-coder-wiki/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/posts/hugo-coder-wiki/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/hugo/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/hugo/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/hugo/"
                 />
   </url><url>
-    <loc>localhost:1313/website/tags/themes/</loc>
+    <loc>https://agtonybarletta.github.io/website/tags/themes/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/tags/themes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/tags/themes/"
                 />
   </url><url>
-    <loc>localhost:1313/website/3d-print/</loc>
+    <loc>https://agtonybarletta.github.io/website/3d-print/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>localhost:1313/website/hobbies/photos/</loc>
+    <loc>https://agtonybarletta.github.io/website/hobbies/photos/</loc>
   </url><url>
-    <loc>localhost:1313/website/projects/</loc>
+    <loc>https://agtonybarletta.github.io/website/projects/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>localhost:1313/website/authors/</loc>
+    <loc>https://agtonybarletta.github.io/website/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/pt-br/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="#ZgotmplZ"
+                href="https://agtonybarletta.github.io/website/authors/"
                 />
   </url><url>
-    <loc>localhost:1313/website/3d-print/cola-bottle-cap/</loc>
+    <loc>https://agtonybarletta.github.io/website/3d-print/cola-bottle-cap/</loc>
   </url><url>
-    <loc>localhost:1313/website/hobbies/</loc>
+    <loc>https://agtonybarletta.github.io/website/hobbies/</loc>
   </url><url>
-    <loc>localhost:1313/website/3d-print/iphone-ibm-case/</loc>
+    <loc>https://agtonybarletta.github.io/website/3d-print/iphone-ibm-case/</loc>
   </url><url>
-    <loc>localhost:1313/website/hobbies/photos/p1/</loc>
+    <loc>https://agtonybarletta.github.io/website/hobbies/photos/p1/</loc>
   </url><url>
-    <loc>localhost:1313/website/projects/homemade/</loc>
+    <loc>https://agtonybarletta.github.io/website/projects/homemade/</loc>
   </url><url>
-    <loc>localhost:1313/website/projects/readme/</loc>
+    <loc>https://agtonybarletta.github.io/website/projects/readme/</loc>
   </url><url>
-    <loc>localhost:1313/website/about/</loc>
+    <loc>https://agtonybarletta.github.io/website/about/</loc>
   </url>
 </urlset>

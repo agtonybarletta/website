@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>johndoe</title>
-    <link>localhost:1313/website/projects/</link>
+    <link>https://agtonybarletta.github.io/website/projects/</link>
     <description>Recent content on johndoe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="localhost:1313/website/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://agtonybarletta.github.io/website/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal Rice - Desktop Environment</title>
-      <link>localhost:1313/website/projects/homemade/</link>
+      <link>https://agtonybarletta.github.io/website/projects/homemade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/website/projects/homemade/</guid>
+      <guid>https://agtonybarletta.github.io/website/projects/homemade/</guid>
       <description>Personal Rice - Desktop Environment Collection of scripts to install all programs and configuratios for my xfce4+awesomeWm setup
 Requirements ~Debian~ Arch linux must be already installed before running this scripts. A clean installation with archinstall should do the work.
 Steps This is the list of steps needed before running this script (Arch linux)
@@ -23,10 +23,10 @@ partition disk using fdisk.</description>
     
     <item>
       <title>Personal Website</title>
-      <link>localhost:1313/website/projects/readme/</link>
+      <link>https://agtonybarletta.github.io/website/projects/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/website/projects/readme/</guid>
+      <guid>https://agtonybarletta.github.io/website/projects/readme/</guid>
       <description> Personal Website to read to understand hugo https://tangenttechnologies.ca/blog/hugo-themes/ https://github.com/luizdepra/hugo-coder/tree/main/docs </description>
     </item>
     
