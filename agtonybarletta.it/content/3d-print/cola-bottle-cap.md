@@ -8,9 +8,9 @@ It also comes with a paracord to decrease the chances of losing the cap.
 
 Material Used: TPU.
 
-- [STL](/3d-models/cola-bottle-cap.stl)
-- [FCStd](/3d-models/cola-bottle-cap.FCStd)
-- [GLTF](/3d-models/cola-bottle-cap.gltf)
+- [STL](cola-bottle-cap.stl)
+- [FCStd](cola-bottle-cap.FCStd)
+- [GLTF](cola-bottle-cap.gltf)
 
-{{< model-viewer file="cola-bottle-cap" >}}
+{{< model-viewer file="cola-bottle-cap/cola-bottle-cap" >}}
 

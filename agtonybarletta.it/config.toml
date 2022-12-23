@@ -8,6 +8,8 @@ pygmentsStyle = "vim"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
+relativeURLs = false
+canotifyURLs = false
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
 
