@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on johndoe</title>
-    <link>localhost:1313/website/series/</link>
+    <link>https://agtonybarletta.github.io/website/series/</link>
     <description>Recent content in Series on johndoe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="localhost:1313/website/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://agtonybarletta.github.io/website/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>localhost:1313/website/series/hugo/</link>
+      <link>https://agtonybarletta.github.io/website/series/hugo/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/website/series/hugo/</guid>
+      <guid>https://agtonybarletta.github.io/website/series/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme</title>
-      <link>localhost:1313/website/series/theme/</link>
+      <link>https://agtonybarletta.github.io/website/series/theme/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/website/series/theme/</guid>
+      <guid>https://agtonybarletta.github.io/website/series/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes Guide</title>
-      <link>localhost:1313/website/series/themes-guide/</link>
+      <link>https://agtonybarletta.github.io/website/series/themes-guide/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/website/series/themes-guide/</guid>
+      <guid>https://agtonybarletta.github.io/website/series/themes-guide/</guid>
       <description></description>
     </item>
     

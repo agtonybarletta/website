@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>johndoe</title>
-    <link>localhost:1313/website/hobbies/photos/</link>
+    <link>https://agtonybarletta.github.io/website/hobbies/photos/</link>
     <description>Recent content on johndoe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="localhost:1313/website/hobbies/photos/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://agtonybarletta.github.io/website/hobbies/photos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>my p1 photo title</title>
-      <link>localhost:1313/website/hobbies/photos/p1/</link>
+      <link>https://agtonybarletta.github.io/website/hobbies/photos/p1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/website/hobbies/photos/p1/</guid>
+      <guid>https://agtonybarletta.github.io/website/hobbies/photos/p1/</guid>
       <description> my P1 photo </description>
     </item>
     
