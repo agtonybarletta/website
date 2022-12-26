@@ -5,6 +5,9 @@
   		 auto-rotate
 		 rotation-per-second="40deg"
 		 ar
+		 exposure="0.5"
+		 environment-image="legacy"
+		 loading="eager"
 		 class="model-viewer"
 		 src='{{ print .Site.BaseURL "/3d-print/" (.Get "file") ".gltf" }}' >
 		</model-viewer>

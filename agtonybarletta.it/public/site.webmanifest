@@ -1,9 +1,0 @@
-{
-  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "agtonybarletta.it",
-  "short_name": "agtonybarletta.it",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fff",
-  "description": "{{< .Description >}}"
-}

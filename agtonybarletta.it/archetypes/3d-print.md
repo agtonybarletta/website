@@ -7,8 +7,8 @@ Desciption
 
 Material Used: 
 
-- [STL](/3d-models/model.stl)
-- [FCStd](/3d-models/model.FCStd)
-- [GLTF](/3d-models/model.gltf)
+- [STL](model.stl)
+- [FCStd](model.FCStd)
+- [GLTF](model.gltf)
 
-{{< model-viewer file="model" >}}
+{{< model-viewer file="model/model" >}}
