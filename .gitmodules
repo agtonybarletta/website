@@ -1,6 +1,3 @@
-[submodule "style/water.css"]
-	path = style/water.css
-	url = https://github.com/kognise/water.css/
 [submodule "agtonybarletta.it/themes/hugo-coder"]
 	path = agtonybarletta.it/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
