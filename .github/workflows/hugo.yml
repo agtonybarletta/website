@@ -1,0 +1,104 @@
+
+name: CI
+on:
+  push:
+    branches: ["master"]
+
+  # allows you to run this workflow manually from the actions tab
+  workflow_dispatch:
+ 
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        env:
+          HUGO_BASEURL: 'https://www.agtonybarletta.it'
+        run: hugo --minify
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: hugo-output
+          path: ./public
+     
+  test:
+    runs-on: ubuntu-22.04
+    needs: build
+    steps:
+      - name: mkdir public
+        run: mkdir public
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: hugo-output
+          path: public
+          
+      - name: text index.html
+        run: ls -la public/index.html
+
+  deploy:
+    needs: [build, test]
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    runs-on: ubuntu-22.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: mkdir public
+        run: mkdir public
+      - uses: actions/checkout@v3
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: hugo-output
+          path: public
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          workload_identity_provider: ${{ secrets.WORK_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT }}
+      - name: Cloud Storage Uploader
+        # You may pin to the exact commit or the version.
+        # uses: google-github-actions/upload-cloud-storage@a5b77a3bf84da1791719585d327e5f90ae5cb53c
+        uses: google-github-actions/upload-cloud-storage@v1
+        with:
+          # Project ID to use for making requests. By default, this is extracted from the credentials or the running environment.
+          project_id: ${{ secrets.PROJECT_ID }}
+          # The path to a file or folder inside the action's filesystem that should be uploaded to the bucket. You can specify either the absolute path or the relative path from the action.
+          path: ./public/
+          # GCS bucket name of form <bucketname> or with an optional prefix of form <bucketname>/<prefix>
+          destination: ${{ secrets.BUCKET_NAME }}
+          # Upload file(s) with gzip content encoding, defaults to true.
+          gzip: true
+          # Enable resumable uploads, defaults to true.
+          resumable: true
+          # Apply a predefined set of access controls to the file(s).
+          predefinedAcl: ""
+          # Whether parent dir should be included in GCS destination, defaults to true.
+          parent: false
+          # Optional glob pattern.
+          glob: ""
+          # Number of files to simultaneously upload.
+          concurrency: 100
+          # Set headers (object metadata).
+          headers: ""
+          # Process the .gcloudignore file in the root of the repository and do not upload files that match the patterns.
+          process_gcloudignore: false
+
+      
