@@ -61,7 +61,7 @@ jobs:
     steps:
       - name: mkdir public
         run: mkdir public
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - uses: actions/download-artifact@v3
         with:

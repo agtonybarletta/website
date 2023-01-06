@@ -4,7 +4,7 @@ title: Tony's Website :)
 
 Hi!, I am Tony, a software engineer based in Italy.
 
-I have a master's degree from [Politecnico di Torino](http://www.polito.it) and I work as software engineer in the distribution sector. I also worked as full stack developer
+I have a master's degree from [Polytechnic of Turin](http://www.polito.it) and I work as software engineer in the distribution sector. I also worked as full stack developer
 in the banking and healthcase industries.
 
 My interests includes: web development, GNU/Linux distributions, 3D printing and photography.
