@@ -1,8 +1,9 @@
 ## TODO
+- [ ] fix favicon.png
+- [ ] fix my dog image
 - photos 3d prints
 - photography section
 - project urlShortener
-- project website
 - add breadcrumb
 - add breadcrumb rich content seo https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
 - add image tag https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata

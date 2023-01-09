@@ -1,6 +1,6 @@
 # Personal Website
 
-[agtonybarletta.it](agtonybarletta.it), a personal website that contains some basic info (who am I, contacts etc) and a small collection of my projects and hobbies.
+[agtonybarletta.it](https://agtonybarletta.it), a personal website that contains some basic info (who am I, contacts etc) and a small collection of my projects and hobbies.
 
 ## Done with
 

@@ -2,10 +2,8 @@
 title: Tony's Website :)
 ---
 
-Hi!, I am Tony, a software engineer based in Italy.
-
-I have a master's degree from [Polytechnic of Turin](http://www.polito.it) and I work as software engineer in the distribution sector. I also worked as full stack developer
-in the banking and healthcase industries.
+I am Tony, a software engineer based in Italy.
+I have a master's degree from [Polytechnic of Turin](http://www.polito.it) and I work as software engineer and full stack web developer with Java and Angular.
 
 My interests includes: web development, GNU/Linux distributions, 3D printing and photography.
 
@@ -13,13 +11,13 @@ I build this website to have a place to collect all my contacts and projects.
 
 ## My dotted dog
 
-![Domizia](images/my-dog.jpg)
+![Domizia](images/my-dog.webp)
 
 ## My skills
 
 - Programming languages: Java, Typescript, C
+- Web stacks: JavaEE, Angular, Springboot, NodeJs, ReactJs
 - Databases: SQL, MongoDB
-- Web stacks: JavaEE, JakartaEE, Angular, Spring MVC, Springboot, NodeJs, ExpressJs, ReactJs
 - Other tools: bash, git, Google Cloud Platform
 
 In the  past I also worked for a brief period with Python, c++, php, lua, angularJs, bootstrap, tensorflow, apache adoop, apache sparks, apache solr, JMS, IBM MQ.
@@ -42,6 +40,6 @@ My current laptop is a Thinkpad T480 (Intel i5-8350U) with the following mods:
 ## Contacts
 
 - email: agtonybarletta[at]gmail.com
-- [Linkedin](https://www.linkedin.com/in/agtonybarletta/)
-- [github](https://github.com/agtonybarletta)
+- [agtonybarletta@Linkedin](https://www.linkedin.com/in/agtonybarletta/)
+- [agtonybarletta@github](https://github.com/agtonybarletta)
 
