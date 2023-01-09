@@ -8,6 +8,7 @@
         {{ title (i18n (lower .Title)) | default .Title }}
       </a>
     </h1>
+	<div> {{ partial "partials/breadcrumbs.html" . }} </div>
     {{ .Content }}
     <ul>
       {{- range .Paginator.Pages -}}
