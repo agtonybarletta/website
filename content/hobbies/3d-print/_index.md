@@ -10,4 +10,4 @@ My current setup is:
 - FreeCAD CAD software
 - Ultimake Cura slicer
 
-Here is a list of few projects I drew and print.
+Here is a list of few projects I drew and printed.

@@ -12,6 +12,7 @@
 - reformat titles for index and sub pages
 - add links in linkedi/github/stackoverflow
 - add links on this README.md
+- [ ] add box shadow to images `box-shadow: 0 10px 20px -4px rgb(0 0 0 / 60%);`
 
 ## to read 
 - https://seositecheckup.com/analysis to analize website seo
