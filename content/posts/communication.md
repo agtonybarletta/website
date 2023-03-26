@@ -22,4 +22,5 @@ series: []
 ## Resources
 - https://education2.sdsu.edu/pci/pathways/documents/10%20ways%20to%20explain%20things%20more%20effectively.pdf
 - https://www.scienceofpeople.com/how-to-explain-things-better/
+- https://www.youtube.com/watch?v=9sv6Fi70Aug
 

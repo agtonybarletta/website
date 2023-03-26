@@ -1,4 +1,4 @@
-<section class="container page">
+<section class="container page" id="container-page-home">
   <article>
     <header>
       <h1 class="title">
@@ -11,3 +11,5 @@
     {{ .Content }}
   </article>
 </section>
+{{ $script := resources.Get "js/desk.js" | minify | fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

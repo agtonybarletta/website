@@ -3657,7 +3657,7 @@ figure {
   z-index: 100;
   position: fixed;
   font-size: 1.6em; }
-  .float-container a {
+  .float-container div {
     position: relative;
     display: inline-block;
     width: 3rem;
@@ -3668,14 +3668,14 @@ figure {
     border-radius: 0.2rem;
     opacity: 0.5;
     transition: all 0.25s ease-in; }
-    .float-container a:hover, .float-container a:focus {
+    .float-container div:hover, .float-container div:focus {
       color: #1565c0;
       opacity: 1; }
       @media only screen and (max-width: 768px) {
-        .float-container a:hover, .float-container a:focus {
+        .float-container div:hover, .float-container div:focus {
           color: #000;
           opacity: 0.5; } }
-    .float-container a i {
+    .float-container div i {
       position: absolute;
       top: 50%;
       left: 50%;

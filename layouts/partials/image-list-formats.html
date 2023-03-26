@@ -1,0 +1,27 @@
+{{- $pathURL := .Site.BaseURL -}}
+{{- $path := .Get "path" -}}
+{{- $imageName := .Get "imageName" -}}
+{{- $files := readDir  (printf "%s%s" "content/hobbies/photos/" (.Get "imageName") ) -}}
+{{- $files_static := readDir  (printf "%s%s" "static/hobbies/photos/" (.Get "imageName") ) -}}
+<p> Downloads: </p>
+<ul>
+	<!--<th>Size in bytes</th>
+	<th>Name</th>
+	-->
+{{- range $files }}
+	{{ if not ( in .Name ".md" ) }}
+	 
+	<li ><a href='{{ print $pathURL "hobbies/photos/" $imageName "/" .Name }}'>{{ replace .Name ( print $imageName "-" ) "" }}</a> </li>
+
+	{{ end }}
+{{- end }}
+
+{{- range $files_static }}
+	{{ if not ( in .Name ".md" ) }}
+	 
+	<li ><a href='{{ print $pathURL "hobbies/photos/" $imageName "/" .Name }}'>{{ replace .Name ( print $imageName "-" ) "" }}</a> </li>
+
+	{{ end }}
+{{- end }}
+
+</ul>

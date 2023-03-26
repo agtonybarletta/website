@@ -1,0 +1,31 @@
+{{- $pathURL := .Site.BaseURL -}}
+{{- $path := .Get "path" -}}
+{{- $imageName := .Get "imageName" -}}
+<script
+  defer
+  src="https://unpkg.com/img-comparison-slider@7/dist/index.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/img-comparison-slider@7/dist/styles.css"
+/>
+
+<style type="text/css">
+  img-comparison-slider {
+    --divider-width: 2px;
+    --divider-color: #c0c0c0;
+    --default-handle-opacity: 0.3;
+  }
+  img-comparison-slider:focus-visible {
+	outline-width: 0;	
+  }
+</style>
+
+<div class="img-comparison-slider-container">
+<img-comparison-slider value="95">
+  <img slot="first" src='{{ print $pathURL "/hobbies/photos/" $imageName "/" $imageName "-post-processed.webp" }}' >
+  <img slot="second" src='{{ print $pathURL "/hobbies/photos/" $imageName "/" $imageName "-original.JPG" }}'>
+</img-comparison-slider>
+</div>
+
+<!--<img src='{{ print $pathURL "/hobbies/photos/" $imageName "/" $imageName "-post-processed.webp" }}'>-->

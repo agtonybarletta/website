@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tony&#39;s Website :) on agtonybarletta</title>
+    <link>https://agtonybarletta.github.io/website/</link>
+    <description>Recent content in Tony&#39;s Website :) on agtonybarletta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://agtonybarletta.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>homeMaDE</title>
+      <link>https://agtonybarletta.github.io/website/projects/homemade/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/projects/homemade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://agtonybarletta.github.io/website/projects/website/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/projects/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dotfiles</title>
+      <link>https://agtonybarletta.github.io/website/projects/dotfiles/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/projects/dotfiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mouse daemon</title>
+      <link>https://agtonybarletta.github.io/website/projects/mouse-daemon/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/projects/mouse-daemon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D printer laser support</title>
+      <link>https://agtonybarletta.github.io/website/hobbies/3d-print/laser-support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/hobbies/3d-print/laser-support/</guid>
+      <description>Many 3d printers come with additional power ports that can be used to add new peripherals. Secondary fans, led strips, and enclousure heaters are some examples.
+I attached a tiny Laser to one of those ports and I transformed my Creality Ender 3 3D printer into a laser engraver.
+More often than not these lasers come with little magnets that keep the laser attached to the extruder.
+I design this small laser support secure the laser to the extruder support.</description>
+    </item>
+    
+    <item>
+      <title>Bike</title>
+      <link>https://agtonybarletta.github.io/website/hobbies/photos/bike/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/hobbies/photos/bike/</guid>
+      <description> Shot with:
+Canon EOS 1200D Canon EF-S 18-55mm f/3.5-5.6 IS II Parameters:
+ISO 800 50mm f/5.6 1/6 Edited with:
+RawTherapee Downloads: parameters.txt original.CR2 original.CR2.pp3 original.JPG post-processed-border.jpg post-processed-small.webp post-processed.jpg post-processed.tif post-processed.webp parameters.txt </description>
+    </item>
+    
+    <item>
+      <title>Cola bottle cap</title>
+      <link>https://agtonybarletta.github.io/website/hobbies/3d-print/cola-bottle-cap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/hobbies/3d-print/cola-bottle-cap/</guid>
+      <description>This bottle cap for Coca-Cola glass bottles makes them reusable and reduces waste. It also comes with a paracord to decrease the chances of losing the cap.
+Material Used: TPU.
+STL FCStd GLTF </description>
+    </item>
+    
+    <item>
+      <title>iPhone IBM case</title>
+      <link>https://agtonybarletta.github.io/website/hobbies/3d-print/iphone-ibm-case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/hobbies/3d-print/iphone-ibm-case/</guid>
+      <description>This is a iphone SE case branded IBM. I design it for my company phone back when I used to work for IBM.
+FCStd Case Material black TPU:
+case STL case GLTF Logo Material white PLA:
+logo STL logo GLTF Credit to Leo10698 for the iPhone SE case
+iphone se 2020 / 8 / 7 flexible case by Leo10698 on Thingiverse: https://www.thingiverse.com/thing:4766166</description>
+    </item>
+    
+    <item>
+      <title>Pizzeria</title>
+      <link>https://agtonybarletta.github.io/website/hobbies/photos/pizzeria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/hobbies/photos/pizzeria/</guid>
+      <description> Shot with:
+Canon EOS 1200D Canon EF-S 18-55mm f/3.5-5.6 IS II Parameters:
+ISO 3200 50mm f/5.6 1/30 Edited with:
+Darktable Downloads: parameters.txt parameters.txt original.CR2 original.CR2.xmp original.JPG post-processed-border.jpg post-processed-small.webp post-processed.jpg post-processed.tif post-processed.webp </description>
+    </item>
+    
+    <item>
+      <title>Tree pt2</title>
+      <link>https://agtonybarletta.github.io/website/hobbies/photos/tree-pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/hobbies/photos/tree-pt2/</guid>
+      <description> Shot with:
+Canon EOS 1200D Canon FD 35-70mm f/4 + adapter FD/EF Parameters:
+ISO 1600 50mm f/4 1/160 Edited with:
+Darktable Downloads: parameters.txt parameters.txt original.CR2 original.CR2.xmp original.JPG post-processed-border.jpg post-processed-small.webp post-processed.jpg post-processed.tif post-processed.webp </description>
+    </item>
+    
+    <item>
+      <title>Tree pt3</title>
+      <link>https://agtonybarletta.github.io/website/hobbies/photos/tree-pt3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://agtonybarletta.github.io/website/hobbies/photos/tree-pt3/</guid>
+      <description> Shot with:
+Canon EOS 1200D Canon EF-S 18-55mm f/3.5-5.6 IS II Parameters:
+ISO 3200 50mm f/5.6 1/500 Edited with:
+Darktable Downloads: parameters.txt parameters.txt original.CR2 original.CR2.xmp original.JPG post-processed-border.jpg post-processed-small.webp post-processed.jpg post-processed.tif post-processed.webp </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,20 +2,34 @@
   {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "content" }}
+
   <section class="container list">
-    <h1 class="title">
+	  <article>
+		  <header>
+    <h1>
       <a class="title-link" href="{{ .Permalink | safeURL }}">
         {{ title (i18n (lower .Title)) | default .Title }}
       </a>
     </h1>
-	<div> {{ partial "partials/breadcrumbs.html" . }} </div>
+</header>
     {{ .Content }}
+	{{ if strings.Contains (trim .Page.RelPermalink "/") "/hobbies/photos" }}
+		<ul class="photo-container">
+      {{- range .Paginator.Pages -}}
+	  	<li class="photo-li">
+        	{{- .Render "li-photo" -}}
+		</li>
+      {{- end -}}
+	</ul>
+	{{else }}
     <ul>
       {{- range .Paginator.Pages -}}
         {{- .Render "li" -}}
       {{- end -}}
     </ul>
+	{{ end }}
 
     {{ partial "pagination.html" . }}
+</article>
   </section>
 {{ end }}

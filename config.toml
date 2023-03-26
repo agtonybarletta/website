@@ -1,4 +1,5 @@
 baseURL = "https://agtonybarletta.github.io/website"
+
 title = "agtonybarletta"
 theme = "hugo-coder"
 languageCode = "en"

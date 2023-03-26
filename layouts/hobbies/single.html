@@ -6,13 +6,13 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">
+          <h1>
             <a class="title-link" href="{{ .Permalink | safeURL }}">
               {{ .Title }}
             </a>
           </h1>
         </div>
-		<div> {{ partial "partials/breadcrumbs.html" . }} </div>
+		<!--<div> {/{ partial "partials/breadcrumbs.html" . }} </div> -->
         <div class="post-meta">
           <div class="date">
 			  {{ if isset .Params "date" }}
@@ -23,10 +23,12 @@
               </time>
             </span>
 			{{ end }}
+			{{ if (not ( strings.Contains (trim .Page.RelPermalink "/") "/hobbies/photos" ) ) }}
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
               {{ i18n "reading_time" .ReadingTime }}
             </span>
+			{{ end }}
           </div>
           {{ with .Page.Params.Authors }}{{ partial "taxonomy/authors.html" . }}{{ end }}
           {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
@@ -38,8 +40,8 @@
         {{ if .Params.featuredImage }}
           <img src="{{ .Params.featuredImage | relURL }}" alt="Featured image"/>
         {{ end }}
-        {{ .Content }}
-		{{ .Permalink }}
+		{{ .Content }}
+		<!--{{ .Permalink }}-->
       </div>
       <footer>
         {{ partial "posts/series.html" . }}

@@ -1,2 +1,0 @@
-# Photos
-my photos

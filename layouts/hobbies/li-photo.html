@@ -1,0 +1,4 @@
+{{- $imageName := path.BaseName .Permalink -}}
+<a class="image-border" href="{{ .Params.externalLink | default .RelPermalink }}">
+	<img src='{{ print .Permalink  "/" $imageName "-post-processed-small.webp" }}' alt="{{ $imageName }}"/>
+</a>
