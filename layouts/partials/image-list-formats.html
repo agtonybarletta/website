@@ -11,7 +11,7 @@
 {{- range $files }}
 	{{ if not ( in .Name ".md" ) }}
 	 
-	<li ><a href='{{ print $pathURL "hobbies/photos/" $imageName "/" .Name }}'>{{ replace .Name ( print $imageName "-" ) "" }}</a> </li>
+	<li ><a href='{{ print $pathURL "/hobbies/photos/" $imageName "/" .Name }}'>{{ replace .Name ( print $imageName "-" ) "" }}</a> </li>
 
 	{{ end }}
 {{- end }}
@@ -19,7 +19,7 @@
 {{- range $array }}
 	{{ if not ( in . ".md" ) }}
 	 
-	<li ><a href='{{ print $pathURL "hobbies/photos/" $imageName "/" $imageName "-" . }}'>{{ print . }}</a> </li>
+	<li ><a href='{{ print $pathURL "/hobbies/photos/" $imageName "/" $imageName "-" . }}'>{{ print . }}</a> </li>
 
 	{{ end }}
 {{- end }}
