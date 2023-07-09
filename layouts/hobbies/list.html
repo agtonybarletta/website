@@ -13,7 +13,7 @@
     </h1>
 </header>
     {{ .Content }}
-	{{ if strings.Contains (trim .Page.RelPermalink "/") "/hobbies/photos" }}
+	{{ if strings.Contains .Page.RelPermalink "/hobbies/photos" }}
 		<ul class="photo-container">
       {{- range .Paginator.Pages -}}
 	  	<li class="photo-li">
