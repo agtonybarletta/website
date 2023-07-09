@@ -16,4 +16,4 @@ Parameters:
 Edited with:
 - [Darktable](https://www.darktable.org/)
 
-{{< image-list-formats imageName="pizzeria" >}}
+{{< image-list-formats imageName="pizzeria" files="original.CR2,original.JPG,original.CR2.xmp,post-processed-border.jpg,post-processed-small.webp,post-processed.jpg,post-processed.tif,post-processed.webp" >}}

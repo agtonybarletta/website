@@ -1,5 +1,6 @@
 ---
 title: Bike
+imageName: "bike"
 ---
 {{< image imageName="bike" >}}
 
@@ -16,4 +17,5 @@ Parameters:
 Edited with:
 - [RawTherapee](https://www.rawtherapee.com/)
 
-{{< image-list-formats imageName="bike" >}}
+{{< image-list-formats imageName="bike" files="original.CR2,original.JPG,original.CR2.pp3,post-processed-border.jpg,post-processed-small.webp,post-processed.jpg,post-processed.tif,post-processed.webp" >}}
+

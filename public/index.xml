@@ -64,7 +64,7 @@ I design this small laser support secure the laser to the extruder support.</des
       <description> Shot with:
 Canon EOS 1200D Canon EF-S 18-55mm f/3.5-5.6 IS II Parameters:
 ISO 800 50mm f/5.6 1/6 Edited with:
-RawTherapee Downloads: parameters.txt original.CR2 original.CR2.pp3 original.JPG post-processed-border.jpg post-processed-small.webp post-processed.jpg post-processed.tif post-processed.webp parameters.txt </description>
+RawTherapee Downloads: parameters.txt [original]({{ print $pathURL &amp;ldquo;hobbies/photos/&amp;rdquo; .Page.Params.imageName &amp;ldquo;/&amp;rdquo; .Page.Params.imageName &amp;ldquo;-original.CR2&amp;rdquo; }}) </description>
     </item>
     
     <item>
@@ -100,7 +100,7 @@ iphone se 2020 / 8 / 7 flexible case by Leo10698 on Thingiverse: https://www.thi
       <description> Shot with:
 Canon EOS 1200D Canon EF-S 18-55mm f/3.5-5.6 IS II Parameters:
 ISO 3200 50mm f/5.6 1/30 Edited with:
-Darktable Downloads: parameters.txt parameters.txt original.CR2 original.CR2.xmp original.JPG post-processed-border.jpg post-processed-small.webp post-processed.jpg post-processed.tif post-processed.webp </description>
+Darktable Downloads: parameters.txt </description>
     </item>
     
     <item>
@@ -112,7 +112,7 @@ Darktable Downloads: parameters.txt parameters.txt original.CR2 original.CR2.xmp
       <description> Shot with:
 Canon EOS 1200D Canon FD 35-70mm f/4 + adapter FD/EF Parameters:
 ISO 1600 50mm f/4 1/160 Edited with:
-Darktable Downloads: parameters.txt parameters.txt original.CR2 original.CR2.xmp original.JPG post-processed-border.jpg post-processed-small.webp post-processed.jpg post-processed.tif post-processed.webp </description>
+Darktable Downloads: parameters.txt </description>
     </item>
     
     <item>
@@ -124,7 +124,7 @@ Darktable Downloads: parameters.txt parameters.txt original.CR2 original.CR2.xmp
       <description> Shot with:
 Canon EOS 1200D Canon EF-S 18-55mm f/3.5-5.6 IS II Parameters:
 ISO 3200 50mm f/5.6 1/500 Edited with:
-Darktable Downloads: parameters.txt parameters.txt original.CR2 original.CR2.xmp original.JPG post-processed-border.jpg post-processed-small.webp post-processed.jpg post-processed.tif post-processed.webp </description>
+Darktable Downloads: parameters.txt </description>
     </item>
     
   </channel>
