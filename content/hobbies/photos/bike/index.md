@@ -1,6 +1,7 @@
 ---
 title: Bike
 imageName: "bike"
+date: 2022-08-31
 ---
 {{< image imageName="bike" >}}
 

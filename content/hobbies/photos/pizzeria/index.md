@@ -1,5 +1,6 @@
 ---
 title: Pizzeria
+date: 2022-09-05
 ---
 {{< image imageName="pizzeria" >}}
 

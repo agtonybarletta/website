@@ -1,5 +1,6 @@
 ---
 title: Roofs pt2
+date: 2022-09-27
 ---
 
 {{< image imageName="roofs-pt2" >}}

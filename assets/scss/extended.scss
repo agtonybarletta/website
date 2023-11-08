@@ -91,6 +91,9 @@ img {
 .photo-li{
 	max-width: 28rem;
 	width: 100%;
+	@media screen and (max-width: 900px){
+		margin: auto !important;
+	}
 }
 
 .image-border {

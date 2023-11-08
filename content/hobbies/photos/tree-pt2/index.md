@@ -1,5 +1,6 @@
 ---
 title: Tree pt2
+date: 2022-08-07
 ---
 {{< image imageName="tree-pt2" >}}
 
