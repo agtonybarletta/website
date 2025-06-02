@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html>
 	<head>
+    <meta charset="utf-8">
 		<link rel="stylesheet" href="styles.css">
 
 	</head>
 	<body>
+    <h1 id="typewriter">@ agtonybarletta</h1>
+    <p>
+      I'm Antonio Gaetano "Tony" Barletta, a software engineer based in Italy 🇮🇹.<br>
+      After graduating from <a href="http://www.polito.it">Polytechnic of Turin</a> I started working as full stack software engineer.<br>
+      I am currently working for <a href="http://accenture.com">Accenture</a> as a Python backend engineer.<br>
+      Outside work I enjoy coding challenges, Linux DE configs, scripts and mods.<br>
+      My interests outside the tech world are: vintage bike restoration, 3D printing and photography.<br>
+    </p>
+    <br>
+    <p>
+      My skills:
+      <ul>
+        <li>Programming languages: Python, Java, Typescript, C</li>
+        <li>Web stacks: FastAPI, React, Springboot, Angular</li>
+        <li>Cloud: AWS, Azure</li>
+        <li>Other tools: bash, git, neovim</li>
+      </ul>
+    </p>
+    <br>
+    <p>
+      Contacts:
+      <ul>
+        <li>agtonybarletta [at] gmail [dot] com</li>
+        <li><a href="http://www.agtonybarletta.it">www.agtonybarletta.it</a></li>
+        <li><a href="https://www.linkedin.com/in/agtonybarletta/">LinkedIn</a></li>
+        <li><a href="https://leetcode.com/u/agtonybarletta/">Leetcode</a></li>
+        <li><a href="https://github.com/agtonybarletta">Github</a></li>
+      </ul>
+    </p> 
+    <script>
+    var i = 0;
+    var el = document.getElementById("typewriter")
+    var txt = el.innerHTML
+    el.innerHTML = ''
+    var speed = 100; 
 
-	<h1>Tony's Website</h1>
-	<p>
-	I am Tony, a software engineer based in Italy.
-	I have a master's degree from <a href="http://www.polito.it">Polytechnic of Turin</a> and I work as software engineer and full stack web developer.
-
-	My interests includes: web development, GNU/Linux distributions, 3D printing and photography.
-
-	I build this website to have a place to collect all my contacts and projects.
-	</p>
-	<p>
-	My skills:
-	<ul>
-		<li>Programming languages: Java, Typescript, C</li>
-		<li>Web stacks: JavaEE, Angular, Springboot, NodeJs, ReactJs</li>
-		<li>Databases: SQL, MongoDB</li>
-		<li>Other tools: bash, git, Google Cloud Platform</li>
-
-	</ul>
-
-	For many years now I have being playing with linux desktop envirnoments (gnome, xfce) and dynamic windows managers (dwm, awesomeWM).
-
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("typewriter").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    typeWriter();
+    </script>
 	</body>
 </html>

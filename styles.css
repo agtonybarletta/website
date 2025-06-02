@@ -1,5 +1,5 @@
 body {
-	width: 66%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: sans-serif;
@@ -9,4 +9,8 @@ h1 {
 	text-align: center;
 	font-size: 4em;
 
+}
+
+a:visited {
+  color: #005EA6;
 }
