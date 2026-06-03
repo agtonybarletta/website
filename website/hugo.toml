@@ -1,0 +1,26 @@
+baseURL = 'https://agtonybarletta.it/'
+theme = 'somestyleplease'
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    languageDirection = 'ltr'
+    title = '@ agtonybarletta'
+
+    weight = 1
+
+[params.theme_config]
+  appearance = "light"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
