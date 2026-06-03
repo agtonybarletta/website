@@ -1,0 +1,3 @@
+[submodule "website/themes/somestyleplease"]
+	path = website/themes/somestyleplease
+	url = https://github.com/jkkNl/somestyleplease.git
