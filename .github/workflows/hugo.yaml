@@ -79,6 +79,10 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
+      - name: Clean generated public
+        working-directory: website
+        run: |
+          rm -rf public
       - name: Build the site
         working-directory: website
         run: |
