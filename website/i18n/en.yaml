@@ -1,0 +1,29 @@
+general:
+  back_home_text: "↩︎ back to homepage"
+  categories: "categories:"
+  tags: "tags:"
+  intro: "Intro1."
+  
+  
+homepage:
+  intro: ""
+  moreintro: ""
+  footer: ""
+
+# Category page description
+categories:
+
+# RSS feed description
+rss:
+  rss_title: "My website name"
+  rss_description: "RSS description."
+
+# Translation homepage posts list
+allPostsTitle: "Here are all posts:"
+showMoreAll: "See all posts"
+categoryTitle: "Posts in category: {{ . }}"
+showMoreCategory: "See more from this category"
+showMoreTech: "More about technology"
+showMoreHobby: "Show all DIY projects"
+showMoreDefault: "See more from this category"
+noPosts: "No post yet"
