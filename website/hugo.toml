@@ -1,8 +1,8 @@
-baseURL = 'https://agtonybarletta.it/'
+baseURL = 'http://www.agtonybarletta.it/'
 theme = 'somestyleplease'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [markup]
   [markup.goldmark]
